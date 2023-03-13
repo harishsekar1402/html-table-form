@@ -1,13 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .tab{
     display: flex;
     justify-content: center;
 }
-
+th{
+    width: 100px;
+}
 
 .tab ,td,tr,th{
     border: 1px solid black;
@@ -15,6 +12,6 @@
     padding: 10px;
 }
 
-tr:nth-child(even){
+tr:hover{
     background-color: rgba(71, 71, 71, 0.338);
 }
