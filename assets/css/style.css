@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tab{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tab ,td,tr,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(71, 71, 71, 0.338);
+}
